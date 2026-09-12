@@ -11,3 +11,8 @@ while sandwich_orders:
 
     # WHY: Move the completed sandwich to the finished list.
     finished_sandwiches.append(current_sandwich)
+# WHY: Display all completed sandwiches.
+print("\nFinished sandwiches:")
+
+for sandwich in finished_sandwiches:
+    print(sandwich)
